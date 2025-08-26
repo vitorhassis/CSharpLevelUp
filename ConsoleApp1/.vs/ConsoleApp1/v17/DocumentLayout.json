@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\vh\\documents\\github\\csharplevelup\\consoleapp1\\consoleapp1\\modules\\formasgeometricas\\quadrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\modules\\formasgeometricas\\quadrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\vh\\documents\\github\\csharplevelup\\consoleapp1\\consoleapp1\\modules\\formasgeometricas\\formasgeometricasmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\modules\\formasgeometricas\\formasgeometricasmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\vh\\documents\\github\\csharplevelup\\consoleapp1\\consoleapp1\\modules\\formasgeometricas\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\modules\\formasgeometricas\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\vh\\documents\\github\\csharplevelup\\consoleapp1\\consoleapp1\\modules\\catalogoprodutos\\catalogomodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\modules\\catalogoprodutos\\catalogomodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\vh\\documents\\github\\csharplevelup\\consoleapp1\\consoleapp1\\modules\\catalogoprodutos\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\modules\\catalogoprodutos\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\vh\\documents\\github\\csharplevelup\\consoleapp1\\consoleapp1\\modules\\catalogoprodutos\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\modules\\catalogoprodutos\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\vh\\documents\\github\\csharplevelup\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\CatalogoProdutos\\Produto.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Modules\\CatalogoProdutos\\Produto.cs",
-              "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\CatalogoProdutos\\Produto.cs",
-              "RelativeToolTip": "ConsoleApp1\\Modules\\CatalogoProdutos\\Produto.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowD8AAAAyAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\FormasGeometricas\\User.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Modules\\FormasGeometricas\\User.cs",
+              "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\FormasGeometricas\\User.cs*",
+              "RelativeToolTip": "ConsoleApp1\\Modules\\FormasGeometricas\\User.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T21:13:37.86Z",
+              "WhenOpened": "2025-08-26T15:50:45.644Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Quadrado.cs",
+              "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\FormasGeometricas\\Quadrado.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Modules\\FormasGeometricas\\Quadrado.cs",
+              "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\FormasGeometricas\\Quadrado.cs",
+              "RelativeToolTip": "ConsoleApp1\\Modules\\FormasGeometricas\\Quadrado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T22:30:31.479Z",
+              "WhenOpened": "2025-08-26T16:23:03.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Funcionario.cs",
               "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\CatalogoProdutos\\Funcionario.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Modules\\CatalogoProdutos\\Funcionario.cs",
               "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\CatalogoProdutos\\Funcionario.cs",
               "RelativeToolTip": "ConsoleApp1\\Modules\\CatalogoProdutos\\Funcionario.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T22:16:29.8Z",
+              "WhenOpened": "2025-08-26T15:51:53.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CatalogoModule.cs",
               "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\CatalogoProdutos\\CatalogoModule.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Modules\\CatalogoProdutos\\CatalogoModule.cs",
               "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\CatalogoProdutos\\CatalogoModule.cs",
               "RelativeToolTip": "ConsoleApp1\\Modules\\CatalogoProdutos\\CatalogoModule.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAowEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAswKsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T21:12:58.37Z",
+              "WhenOpened": "2025-08-26T13:53:37.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormasGeometricasModule.cs",
+              "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\FormasGeometricas\\FormasGeometricasModule.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Modules\\FormasGeometricas\\FormasGeometricasModule.cs",
+              "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\FormasGeometricas\\FormasGeometricasModule.cs",
+              "RelativeToolTip": "ConsoleApp1\\Modules\\FormasGeometricas\\FormasGeometricasModule.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T13:53:25.918Z",
               "EditorCaption": ""
             }
           ]

@@ -47,8 +47,7 @@
             Console.Clear();
             Console.WriteLine("=== MENU CADASTRO DE USUARIOS -> Cadastro funcionário <- ===");
 
-            Console.WriteLine("\n");
-            Console.Write("Digite seu nome: ");
+            Console.Write("\nDigite seu nome: ");
             string nome = Console.ReadLine();
 
             Console.Write("Digite seu email: ");

@@ -1,6 +1,7 @@
 ﻿using ConsoleApp1.Modules;
 using ConsoleApp1.Modules.CadastroUsuarios;
 using ConsoleApp1.Modules.CatalogoProdutos;
+using ConsoleApp1.Modules.FormasGeometricas;
 
 bool rodando = true;
 

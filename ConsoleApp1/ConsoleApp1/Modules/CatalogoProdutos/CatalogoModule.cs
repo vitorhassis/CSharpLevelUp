@@ -1,6 +1,6 @@
-﻿//diz que a classe CatalogoModule pertence ao pacote ConsoleApp1.Modules.CatalogoProdutos
-using System.Net.NetworkInformation;
-using System.Linq;
+﻿//diz que a classe CadastroModule pertence ao pacote ConsoleApp1.Modules.CadastroUsuarios
+//diz que a classe CatalogoModule pertence ao pacote ConsoleApp1.Modules.CatalogoProdutos
+using ConsoleApp1.Modules.FormasGeometricas;
 
 namespace ConsoleApp1.Modules.CatalogoProdutos
 {
@@ -70,7 +70,6 @@ namespace ConsoleApp1.Modules.CatalogoProdutos
 
             var produtosVencidos = Catalogo.Where(produto => DateTime.Parse(produto.DataValidade) < DateTime.Now).ToList();
             var produtosNaoVencidos = Catalogo.Where(produto => DateTime.Parse(produto.DataValidade) > DateTime.Now).ToList();
-            var produtosAtencao = Catalogo.Where(produto => DateTime.Parse(produto.DataValidade).Date == DateTime.Now.Date).ToList();
 
             Console.Write("Realizando consulta. Aguarde um momento...");
             Thread.Sleep(2000);
@@ -89,13 +88,55 @@ namespace ConsoleApp1.Modules.CatalogoProdutos
                 Console.WriteLine($"{produto.Nome} -> {produto.DataValidade}");
             }
 
-            Console.WriteLine("\n");
-            Console.WriteLine("Atenção! Produtos que passarão da data de validade a partir de AMANHÃ:");
-            foreach (var produto in produtosAtencao)
+            Console.Write("\nDigite uma tecla para voltar ao menu... ");
+            Console.ReadKey();
+            Console.Clear();
+            Run();
+        }
+
+        public static void OrdenarOrdemAlfabetica()
+        {
+            Console.Clear();
+            Console.WriteLine("=== MENU CATALOGO -> Filtrando por data de validade <- ===\n");
+            var catalogoOrdenadoAlf = Catalogo.OrderBy(produto => produto.Nome).ToList();
+
+            foreach (var produto in catalogoOrdenadoAlf)
             {
-                Console.WriteLine($"{produto.Nome} -> {produto.DataValidade}");
+                Console.WriteLine(produto.Nome);
             }
 
+            Console.Write("\nDigite uma tecla para voltar ao menu... ");
+            Console.ReadKey();
+            Console.Clear();
+            Run();
+
+        }
+
+        public static void OrdenarCatalogoValoresCresc()
+        {
+            Console.Clear();
+            Console.WriteLine("=== MENU CATALOGO -> Filtrando por data de validade <- ===\n");
+
+            var catalogoOrdenadoValores = Catalogo.OrderBy(produto => produto.Preco).ToList();
+
+            foreach (var produto in catalogoOrdenadoValores)
+            {
+                Console.WriteLine($"R${produto.Preco}");
+            }
+
+            Console.Write("\nDigite uma tecla para voltar ao menu... ");
+            Console.ReadKey();
+            Console.Clear();
+            Run();
+        }
+
+        public static void Aprendizado()
+        {
+            Console.Clear();
+            Console.WriteLine("=== MPROJETO CATALOGO  DE PRODUTOS-> Aprendizado <- ===\n");
+
+            Console.WriteLine("Projeto que reforça conceitos de POO e listas de objetos em C#, utilizando LINQ (Average, Where, OrderBy) para calcular média de preços, filtrar e ordenar produtos. Também inclui manipulação de datas com DateTime e menus interativos com switch.");
+            Thread.Sleep(2000);
             Console.Write("\nDigite uma tecla para voltar ao menu... ");
             Console.ReadKey();
             Console.Clear();
@@ -107,7 +148,9 @@ namespace ConsoleApp1.Modules.CatalogoProdutos
             string op;
 
             Console.Clear();
-            Console.WriteLine("=== MENU CADASTRO DE USUARIOS -> Produtos <- ===\n");
+            Console.WriteLine("=== MENU FORMAS GEOMETRICAS ===\n");
+
+            //Repita esse bloco para sempre, até eu manualmente mandar sair com um return, break ou Environment.Exit()
             while (true)
             {
 
@@ -117,14 +160,16 @@ namespace ConsoleApp1.Modules.CatalogoProdutos
                 Console.WriteLine("4- Filtrar catalogo pela data de validade");
                 Console.WriteLine("5- Ordenar catalogo por ordem alfabetica");
                 Console.WriteLine("6- Ordenar catalogo pelos valores dos produtos");
+                Console.WriteLine("7- Aprendizado deste exercicio");
                 Console.WriteLine("0 - Sair");
                 Console.Write("\n-> ");
                 op = Console.ReadLine();
+                
 
                 switch (op)
                 {
                     case "1":
-                        Funcionario.RegistrarUsuario();
+                        User.RegistrarUsuario();
                         break;
 
                     case "2":
@@ -137,6 +182,18 @@ namespace ConsoleApp1.Modules.CatalogoProdutos
 
                     case "4":
                         FiltrarPorDataValidade();
+                        break;
+
+                    case "5":
+                        OrdenarOrdemAlfabetica();
+                        break;
+
+                    case "6":
+                        OrdenarCatalogoValoresCresc();
+                        break;
+
+                    case "7":
+                        Aprendizado();
                         break;
 
                     case "0":

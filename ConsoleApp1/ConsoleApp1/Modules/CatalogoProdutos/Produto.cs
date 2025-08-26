@@ -51,7 +51,7 @@ namespace ConsoleApp1.Modules.CatalogoProdutos
         public static void CadastrarProduto()
         {
             Console.WriteLine("=== MENU CADASTRO DE USUARIOS -> Registrando Produto <- ===");
-            Console.Write("Digite o nome do produto: ");
+            Console.Write("\nDigite o nome do produto: ");
             string nome = Console.ReadLine();
 
             Console.Write("Digite o preço do produto: ");
