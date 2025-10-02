@@ -68,4 +68,14 @@ O objetivo foi praticar desde os fundamentos de orientação a objetos até recu
 
 ---
 
+## 📂 Como compilar e executar
+
+1. Certifique-se de ter o **.NET SDK** instalado ([Download .NET](https://dotnet.microsoft.com/download)).  
+2. Clone este repositório e acesse a pasta de um mini projeto específico:  
+   ```bash
+   git clone https://github.com/vitorhassis/mini-projetos-csharp.git
+   cd mini-projetos-csharp/NomeDoProjeto
+   dotnet run
+
+
 <p align="center">⚡ <em>Desenvolvido por Vitor Assis</em> ⚡</p>
