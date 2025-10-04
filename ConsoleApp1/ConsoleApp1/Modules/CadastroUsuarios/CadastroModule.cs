@@ -11,11 +11,12 @@ namespace ConsoleApp1.Modules.CadastroUsuarios
             while (rodar)
             {
                 Console.WriteLine("=== MENU CADASTRO DE USUARIOS ===");
-                Console.WriteLine("1 - Cadastrar user");
+                Console.WriteLine("\n1 - Cadastrar user");
                 Console.WriteLine("2 - Listar users");
                 Console.WriteLine("3 - Remover users");
                 Console.WriteLine("4 - Aprendizado deste exercicio");
                 Console.WriteLine("0 - Voltar ao Menu");
+                Console.Write("\n->");
                 int op = int.Parse(Console.ReadLine());
 
                 switch (op)
@@ -45,10 +46,8 @@ namespace ConsoleApp1.Modules.CadastroUsuarios
             Console.WriteLine("=== MENU CADASTRO DE USUARIOS -> Cadastrando User <- ===\n");
             Console.Write("Digite o nome do usuario: ");
             string nome = Console.ReadLine();
-            Console.WriteLine("---------------------------");
             Console.Write("Digite o seu E-mail: ");
             string email = Console.ReadLine();
-            Console.WriteLine("---------------------------");
             Console.Write("Digite sua idade: ");
             int idade = int.Parse(Console.ReadLine());
 
@@ -71,7 +70,7 @@ namespace ConsoleApp1.Modules.CadastroUsuarios
                 Console.Clear();
                 Console.WriteLine("=== MENU CADASTRO DE USUARIOS -> Listando Users <- ===\n");
                 Console.WriteLine("Lista vazia!");
-                Console.WriteLine("Aguarde...");
+                Console.Write("Aguarde...");
                 Thread.Sleep(3000);
                 Console.Clear();
             } else
@@ -95,7 +94,7 @@ namespace ConsoleApp1.Modules.CadastroUsuarios
                     Console.WriteLine($"Email: {listaUsuarios[esc].Email}");
                     Console.WriteLine($"Idade: {listaUsuarios[esc].Idade}");
                     Thread.Sleep(3000);
-                    Console.WriteLine("\nPressione uma tecla para voltar ao Menu...");
+                    Console.Write("\nPressione uma tecla para voltar ao Menu...");
                     Console.ReadKey();
                     Console.Clear();
                 } else
@@ -137,7 +136,7 @@ namespace ConsoleApp1.Modules.CadastroUsuarios
                     string nomeRemovido = listaUsuarios[op].Nome;
                     listaUsuarios.RemoveAt(op); //removendo um item da lista pelo indice
                     Console.WriteLine($"{nomeRemovido} removido da lista!");
-                    Console.WriteLine("\nPressione uma tecla para voltar ao Menu...");
+                    Console.Write("\nPressione uma tecla para voltar ao Menu...");
                     Console.ReadKey();
                     Console.Clear();
                 } else
@@ -153,8 +152,18 @@ namespace ConsoleApp1.Modules.CadastroUsuarios
         {
             Console.Clear();
             Console.WriteLine("=== MENU CADASTRO DE USUARIOS -> Aprendizado <- ===\n");
-            Console.WriteLine("1 - Criação e uso de classes para modelagem de dados;\n2 - Construtores personalizados para inicializar objetos com valores;\n3 - Encapsulamento com get e set;\n4 - Manipulação de listas dinâmicas (List<T>);\n5 - Laços de repetições;\n6 - Controle de fluxo com switch, if/else e validações de entrada do user;\n");
-            Console.WriteLine("\nPressione uma tecla para voltar ao Menu...");
+            Console.WriteLine("1- Criação e uso de classes para modelagem de dados;");
+            Thread.Sleep(1000);
+            Console.WriteLine("2- Construtores personalizados para inicializar objetos com valores;");
+            Thread.Sleep(1000);
+            Console.WriteLine("3- Encapsulamento com get e set;");
+            Thread.Sleep(1000);
+            Console.WriteLine("4- Manipulação de listas dinâmicas (List<T>);");
+            Thread.Sleep(1000);
+            Console.WriteLine("5- Laços de repetições;");
+            Thread.Sleep(1000);
+            Console.WriteLine("6- Controle de fluxo com switch, if/else e validações de entrada do user;");
+            Console.Write("\nPressione uma tecla para voltar ao Menu...");
             Console.ReadKey();
             Console.Clear();
         }

@@ -133,14 +133,32 @@ namespace ConsoleApp1.Modules.CatalogoProdutos
         public static void Aprendizado()
         {
             Console.Clear();
-            Console.WriteLine("=== MPROJETO CATALOGO  DE PRODUTOS-> Aprendizado <- ===\n");
+            Console.WriteLine("=== MENU CATÁLOGO DE PRODUTOS -> Aprendizado <-\n");
 
-            Console.WriteLine("Projeto que reforça conceitos de POO e listas de objetos em C#, utilizando LINQ (Average, Where, OrderBy) para calcular média de preços, filtrar e ordenar produtos. Também inclui manipulação de datas com DateTime e menus interativos com switch.");
-            Thread.Sleep(2000);
-            Console.Write("\nDigite uma tecla para voltar ao menu... ");
+            Console.WriteLine("1- Reforço de Programação Orientada a Objetos (POO);");
+            Thread.Sleep(1000);
+
+            Console.WriteLine("2- Criação de classes e listas de objetos para armazenar dados;");
+            Thread.Sleep(1000);
+
+            Console.WriteLine("3- Uso de LINQ (Average, Where, OrderBy) para cálculo de média, filtro e ordenação;");
+            Thread.Sleep(1000);
+
+            Console.WriteLine("4- Manipulação de datas com a estrutura DateTime;");
+            Thread.Sleep(1000);
+
+            Console.WriteLine("5- Construção de menus interativos no console com switch;");
+            Thread.Sleep(1000);
+
+            Console.WriteLine("6- Prática com laços de repetição (foreach, while) e validações de entrada;");
+            Thread.Sleep(1000);
+
+            Console.WriteLine("7- Separação de responsabilidades com métodos organizados;");
+            Thread.Sleep(1000);
+
+            Console.WriteLine("\nPressione qualquer tecla para voltar ao menu...");
             Console.ReadKey();
             Console.Clear();
-            Run();
         }
 
         public static void Run()
@@ -169,7 +187,7 @@ namespace ConsoleApp1.Modules.CatalogoProdutos
                 switch (op)
                 {
                     case "1":
-                        User.RegistrarUsuario();
+                        Funcionario.RegistrarUsuario();
                         break;
 
                     case "2":

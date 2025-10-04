@@ -2,47 +2,54 @@
 using ConsoleApp1.Modules.CadastroUsuarios;
 using ConsoleApp1.Modules.CatalogoProdutos;
 using ConsoleApp1.Modules.FormasGeometricas;
+using ConsoleApp1.Modules.ApiRest;
+using System.Threading.Tasks; // 👈 importante
 
-bool rodando = true;
-
-while (rodando)
+class Program
 {
-    Console.WriteLine(" === MENU === ");
-    Console.WriteLine("\n1 - Cadastro de Usuários");
-    Console.WriteLine("2 - Catálogo de Produtos");
-    Console.WriteLine("3 - Formas geométricas");
-    Console.WriteLine("4 - API de Filmes/músicas");
-    Console.WriteLine("i - Informações sobre o projeto");
-    Console.WriteLine("0 - Sair");
-    Console.Write("\n-> ");
-    string escolha = Console.ReadLine();
-
-    switch (escolha)
+    static async Task Main(string[] args) // 👈 agora o Main é assíncrono
     {
-        case "1":
-            CadastroModule.Run();
-            break;
+        bool rodando = true;
 
-        case "2":
-            CatalogoModule.Run();
-            break;
+        while (rodando)
+        {
+            Console.Clear();
+            Console.WriteLine(" === MENU === ");
+            Console.WriteLine("\n1 - Cadastro de Usuários");
+            Console.WriteLine("2 - Catálogo de Produtos");
+            Console.WriteLine("3 - Formas geométricas");
+            Console.WriteLine("4 - API REST");
+            Console.WriteLine("i - Informações sobre o projeto");
+            Console.WriteLine("0 - Sair");
+            Console.Write("\n-> ");
+            string escolha = Console.ReadLine();
 
-        case "3":
-            FormasGeometricasModule.Run();
-            break;
+            switch (escolha)
+            {
+                case "1":
+                    CadastroModule.Run();
+                    break;
 
-        case "4":
-            APIModule.Run();
-            break;
+                case "2":
+                    CatalogoModule.Run();
+                    break;
 
-        case "i":
-            SobreModules.Run();
-            break;
+                case "3":
+                    FormasGeometricasModule.Run();
+                    break;
 
-        case "0":
-            rodando = false;
-            break;
+                case "4":
+                    await APIModule.Run(); 
+                    break;
 
+                case "i":
+                    SobreModules.Run();
+                    break;
+
+                case "0":
+                    rodando = false;
+                    break;
+            }
+        }
     }
-
 }
