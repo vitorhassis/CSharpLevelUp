@@ -53,11 +53,7 @@ O objetivo foi praticar desde os fundamentos de orientação a objetos até recu
 - Utilização de **HttpClient** para requisições externas.  
 - Uso de **async/await** para chamadas assíncronas.  
 - **Desserialização de JSON** em objetos C# com `JsonSerializer.Deserialize<T>()`.  
-- **Serialização de objetos** para JSON com `JsonSerializer.Serialize()`.  
-
-✔️ **Resumo em TXT (“Tudo até agora”)**  
-- Compilado de todo o aprendizado em C#.  
-- Estrutura em tópicos para revisão rápida (POO, LINQ, APIs, exceções, coleções).  
+- **Serialização de objetos** para JSON com `JsonSerializer.Serialize()`.   
 
 ---
 
