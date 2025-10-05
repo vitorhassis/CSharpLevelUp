@@ -26,7 +26,7 @@ namespace ConsoleApp1.Modules.ApiRest
                 Console.WriteLine("2- Pesquise uma Criptomoeda");
                 Console.WriteLine("3- Exibir Favoritos");
                 Console.WriteLine("4- Salvar Favoritos em arquivo");
-                Console.WriteLine("0 Sair");
+                Console.WriteLine("0- Sair");
                 Console.Write("\n-> ");
                 op = int.Parse(Console.ReadLine());
 

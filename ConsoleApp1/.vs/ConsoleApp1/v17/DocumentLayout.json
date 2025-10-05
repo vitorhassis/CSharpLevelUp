@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\vh\\documents\\github\\csharplevelup\\consoleapp1\\consoleapp1\\modules\\formasgeometricas\\trapezio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\modules\\formasgeometricas\\trapezio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\vh\\documents\\github\\csharplevelup\\consoleapp1\\consoleapp1\\modules\\apirest\\climamodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\modules\\apirest\\climamodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\vh\\documents\\github\\csharplevelup\\consoleapp1\\consoleapp1\\modules\\formasgeometricas\\formasgeometricasmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\modules\\formasgeometricas\\formasgeometricasmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\vh\\documents\\github\\csharplevelup\\consoleapp1\\consoleapp1\\modules\\apirest\\apimodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\modules\\apirest\\apimodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\vh\\documents\\github\\csharplevelup\\consoleapp1\\consoleapp1\\modules\\apirest\\criptomodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1479709B-1A9D-4715-BE91-F5E5E88E387F}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\modules\\apirest\\criptomodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Trapezio.cs",
-              "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\FormasGeometricas\\Trapezio.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Modules\\FormasGeometricas\\Trapezio.cs",
-              "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\FormasGeometricas\\Trapezio.cs",
-              "RelativeToolTip": "ConsoleApp1\\Modules\\FormasGeometricas\\Trapezio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CriptoModule.cs",
+              "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\ApiRest\\CriptoModule.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Modules\\ApiRest\\CriptoModule.cs",
+              "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\ApiRest\\CriptoModule.cs",
+              "RelativeToolTip": "ConsoleApp1\\Modules\\ApiRest\\CriptoModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T20:28:05.004Z",
+              "WhenOpened": "2025-10-05T22:06:39.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClimaModule.cs",
+              "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\ApiRest\\ClimaModule.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Modules\\ApiRest\\ClimaModule.cs",
+              "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\ApiRest\\ClimaModule.cs",
+              "RelativeToolTip": "ConsoleApp1\\Modules\\ApiRest\\ClimaModule.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwE8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T22:06:25.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormasGeometricasModule.cs",
-              "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\FormasGeometricas\\FormasGeometricasModule.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Modules\\FormasGeometricas\\FormasGeometricasModule.cs",
-              "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\FormasGeometricas\\FormasGeometricasModule.cs",
-              "RelativeToolTip": "ConsoleApp1\\Modules\\FormasGeometricas\\FormasGeometricasModule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABLAAAAAAAAAA==",
+              "Title": "APIModule.cs",
+              "DocumentMoniker": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\ApiRest\\APIModule.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Modules\\ApiRest\\APIModule.cs",
+              "ToolTip": "C:\\Users\\vh\\Documents\\GitHub\\CSharpLevelUp\\ConsoleApp1\\ConsoleApp1\\Modules\\ApiRest\\APIModule.cs",
+              "RelativeToolTip": "ConsoleApp1\\Modules\\ApiRest\\APIModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T20:22:52.402Z"
+              "WhenOpened": "2025-10-05T22:06:19.917Z",
+              "EditorCaption": ""
             }
           ]
         }

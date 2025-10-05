@@ -26,7 +26,7 @@ namespace ConsoleApp1.Modules.ApiRest
                         break;
 
                     case "2":
-                        // ClimaModule.Run();
+                        await ClimaModule.Run();
                         break;
 
                     case "0":
