@@ -2,7 +2,7 @@
 
 ## 📌 Sobre o projeto
 
-Este repositório reúne uma coleção de **mini projetos desenvolvidos em C#**, cada um representando um "nível" de aprendizado com foco em diferentes recursos da linguagem.  
+Este repositório reúne uma coleção de **mini projetos desenvolvidos em C# .NET**, cada um representando um "nível" de aprendizado com foco em diferentes recursos da linguagem.  
 
 O objetivo foi praticar desde os fundamentos de orientação a objetos até recursos mais avançados, como **polimorfismo, interfaces, coleções genéricas, LINQ e consumo de APIs com serialização e desserialização**.  
 
